@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:cook_offensive_6",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_offensive_7"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/book_nature.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Босс КФС",
+  "titleColor": "",
+  "positionX": 187.98721,
+  "positionY": 192.54228,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

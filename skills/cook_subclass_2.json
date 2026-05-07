@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:cook_subclass_2",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.15,
+      "multiplier": 1.0,
+      "loot_type": "fishing"
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "6aaf4ebb-7cb5-47ad-af7a-827f88b075d1",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_subclass_2_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Подкласс повара"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Рыбак-мореплаватель",
+  "titleColor": "",
+  "positionX": 304.9729,
+  "positionY": 174.64832,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

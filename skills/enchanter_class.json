@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:enchanter_class",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": -0.3
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ПобочныЙ класс"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 1352.6929,
+  "positionY": 51.318897,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

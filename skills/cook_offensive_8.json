@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:cook_offensive_8",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "ace1d7ba-5cca-4905-9670-8d3ef37dc75c",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 15,
+        "type": "skilltree:food_level"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_offensive_keystone_1",
+    "skilltree:cook_subclass_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_healing_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Всегда сыт II",
+  "titleColor": "",
+  "positionX": 219.61227,
+  "positionY": 157.93391,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
