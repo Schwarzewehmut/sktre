@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_185",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "cc5cda5b-1aea-4ceb-8e62-88c4dd90d439",
+      "name": "Skill",
+      "amount": 9600.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 80.96469,
+  "positionY": -561.16534,
+  "buttonSize": 16,
+  "isStartingPoint": true
+}

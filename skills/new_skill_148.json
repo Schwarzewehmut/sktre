@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_148",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "8f189c96-a13d-4402-87d9-90061b18376c",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_129",
+    "skilltree:blacksmith_healing_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Даря благодать I",
+  "titleColor": "",
+  "positionX": -223.2497,
+  "positionY": 535.75507,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

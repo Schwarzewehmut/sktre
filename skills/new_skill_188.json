@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_188",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.15,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:bad_omen",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_257"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "I улучшение подкласса защитника"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crit_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Бесчеловечный",
+  "positionX": -157.27211,
+  "positionY": 921.7005,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

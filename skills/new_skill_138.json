@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_138",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "2c516007-aba2-4697-82ae-fec3c89af933",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_144"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_146"
+  ],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Дари своё благословение",
+  "titleColor": "",
+  "positionX": -186.882,
+  "positionY": 625.0209,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

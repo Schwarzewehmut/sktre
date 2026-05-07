@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_119",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "c2b5b6a8-f18e-4413-9f53-a0bc2eb563c0",
+      "name": "SkillBonus",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_healing_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Моя жизнь в опасности",
+  "titleColor": "",
+  "positionX": -276.43982,
+  "positionY": 386.5739,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

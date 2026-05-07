@@ -1,0 +1,80 @@
+{
+  "id": "skilltree:new_skill_143",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "minecells:protected",
+      "duration": 50,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:block"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Под охраной",
+  "titleColor": "",
+  "positionX": -591.87976,
+  "positionY": 878.838,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "event_listener.skilltree.block",
+      "with": [
+        {
+          "translate": "attribute.modifier.plus.1",
+          "with": [
+            "5",
+            {
+              "translate": "skill_bonus.skilltree.mob_effect.player.chance",
+              "with": [
+                {
+                  "translate": "effect.minecells.protected"
+                },
+                {
+                  "translate": "skill_bonus.skilltree.mob_effect.duration",
+                  "with": [
+                    "00:02"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Существо с таким эффектом не может быть атаковано никаким образом."
+    }
+  ]
+}

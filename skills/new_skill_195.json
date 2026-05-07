@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_195",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "9f240c8a-e248-4505-b704-e93973dd5c2f",
+      "name": "Skill",
+      "amount": 1200.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -109.03529,
+  "positionY": -643.3749,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

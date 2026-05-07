@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:new_skill_140",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.03,
+      "amount": 3.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:melee"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:blacksmith_healing_2",
+    "skilltree:new_skill_657"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Сам бог назначил тебя II",
+  "titleColor": "",
+  "positionX": -152.22612,
+  "positionY": 478.316,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

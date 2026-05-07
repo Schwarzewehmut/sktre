@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_143kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.05,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/max_book_ice.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Feast of Spirits",
+  "titleColor": "6a0dad",
+  "positionX": -562.41705,
+  "positionY": 633.58545,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

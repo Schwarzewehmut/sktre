@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:new_skill_135",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.03,
+      "effect": "minecraft:absorption",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Во имя господа III",
+  "titleColor": "",
+  "positionX": -191.95583,
+  "positionY": 573.56494,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
