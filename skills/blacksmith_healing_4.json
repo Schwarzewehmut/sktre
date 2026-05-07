@@ -1,0 +1,65 @@
+{
+  "id": "skilltree:blacksmith_healing_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "adaaa3f5-cf1a-431d-aeb0-3e77343302d2",
+      "name": "SkillBonus",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:healing_power",
+      "id": "ed018446-54bf-4fcf-bb87-ee57990e642b",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -206.32924,
+  "positionY": 497.68268,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "attribute.modifier.plus.0",
+      "with": [
+        "0.1",
+        {
+          "translate": "attribute.name.skilltree.regeneration"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+100 Сила лечения (например зельями)"
+    }
+  ]
+}

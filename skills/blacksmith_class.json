@@ -1,0 +1,78 @@
+{
+  "id": "skilltree:blacksmith_class",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1000.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "92554028-ba61-4e91-915a-9c5d887ad470",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "56747c04-6b55-4d5b-8a1b-bea11ece18e8",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.06,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Первая часть ремесла"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -228.35811,
+  "positionY": 100.63249,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

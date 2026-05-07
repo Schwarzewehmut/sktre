@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:blacksmith_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "id": "15504a6a-51c0-4ca7-b436-eaea8da45c16",
+          "name": "SkillBonus",
+          "amount": 4.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_406",
+    "skilltree:new_skill_396"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -1463.3175,
+  "positionY": -245.834,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

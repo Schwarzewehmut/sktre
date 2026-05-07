@@ -1,0 +1,53 @@
+{
+  "id": "skilltree:blacksmith_healing_notable_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "f985e11c-797a-44a9-b82c-f2a3927caa68",
+      "name": "SkillBonus",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "shield",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "860335a9-1b55-4900-b95c-7e4a45f80b69",
+      "name": "Skill",
+      "amount": -0.7,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Подкласс",
+    "Нельзя выбрать подклассы защитника"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Щитоносец",
+  "titleColor": "",
+  "positionX": -239.37546,
+  "positionY": 351.9969,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

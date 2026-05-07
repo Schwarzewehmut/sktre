@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:blacksmith_defensive_crafting_keystone_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "48fc6dd6-f0cd-4280-a884-2de5eccfa247",
+      "name": "Skill",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_405"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -1328.031,
+  "positionY": -161.45222,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

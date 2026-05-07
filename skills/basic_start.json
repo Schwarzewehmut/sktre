@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:basic_start",
+  "bonuses": [
+    {
+      "type": "skilltree:all_attributes",
+      "id": "9e5a5c78-ce88-4f1d-8fc6-e883b2efe5f2",
+      "name": "SkillBonus",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Lost Souls",
+  "titleColor": "ff8c00",
+  "positionX": 0.0,
+  "positionY": 0.0,
+  "buttonSize": 24,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131102_": false,
+      "f_131103_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "components": {},
+      "text": "Добро пожаловать в мир Lost Souls"
+    }
+  ]
+}
