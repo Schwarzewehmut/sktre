@@ -1,0 +1,16 @@
+{
+  "id": "skilltree:new_skill_308",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_offensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -284.72556,
+  "positionY": 1477.2344,
+  "buttonSize": 100,
+  "isStartingPoint": false
+}

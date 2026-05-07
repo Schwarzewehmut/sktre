@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_203",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "d07ce219-a8e7-47f6-85cd-50283598b6e2",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "8e47b87b-9e1c-4bef-a9c9-3cdb320a21df",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_204"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Синтез маны с кристаллов",
+  "titleColor": "",
+  "positionX": -163.49911,
+  "positionY": 823.6388,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:new_skill_214",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "af769b6b-2ccc-493f-a472-e96a9750f2bc",
+      "name": "Skill",
+      "amount": 18.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "dungeons_and_combat:silver_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_663",
+    "skilltree:new_skill_216",
+    "skilltree:new_skill_215"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доспехи",
+  "titleColor": "",
+  "positionX": -114.815094,
+  "positionY": 790.21796,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

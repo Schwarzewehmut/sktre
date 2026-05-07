@@ -1,0 +1,94 @@
+{
+  "id": "skilltree:new_skill_280",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 300.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:iron_sword",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 1.0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "139644fc-aaba-46e5-bc5f-76d208728cf4",
+      "name": "Skill",
+      "amount": 30.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_10",
+    "skilltree:new_skill_60",
+    "skilltree:new_skill_100",
+    "skilltree:new_skill_99",
+    "skilltree:blacksmith_class",
+    "skilltree:cook_class",
+    "skilltree:new_skill_767"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_crit_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Настоящий выбор",
+  "titleColor": "",
+  "positionX": -157.37387,
+  "positionY": 143.98398,
+  "buttonSize": 30,
+  "isStartingPoint": false
+}

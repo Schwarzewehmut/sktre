@@ -1,0 +1,126 @@
+{
+  "id": "skilltree:new_skill_311",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "99c94c10-8320-4524-843b-837c0d9a0a56",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "2f6551d8-08c8-4029-bc70-4aede967b06e",
+      "name": "Skill",
+      "amount": 1200.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "42b2247b-eac7-4bae-819f-213a82a78231",
+      "name": "Skill",
+      "amount": 800.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 10.0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "7d3aecc7-12b1-45da-8e2b-58e252664906",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "feathers:feathers.max_feathers",
+      "id": "ca933ba7-b5a1-42b5-8fd3-73405f72fb9f",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "d5bd2540-1fc4-460c-b8c6-4f7039edb426",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "f79a711b-343a-490f-a7c6-8e4e6be9c530",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "100 уровень",
+  "titleColor": "",
+  "positionX": -769.6863,
+  "positionY": 968.07544,
+  "buttonSize": 50,
+  "isStartingPoint": false
+}

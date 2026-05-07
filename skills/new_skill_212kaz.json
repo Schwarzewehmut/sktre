@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_212kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "d1b8428e-037b-434f-9e91-98a3eefd6889",
+      "name": "Skill",
+      "amount": 0.005,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -619.6394,
+  "positionY": 815.16644,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:new_skill_226",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "f83d1c5e-a701-4138-8821-602f9cd5d856",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "irons_spellbooks:holy_spell_power",
+        "min": 7.0,
+        "type": "skilltree:attribute_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "8546f80a-2f9e-4e22-a236-3fae02f62a9e",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "irons_spellbooks:ender_spell_power",
+        "min": 7.0,
+        "type": "skilltree:attribute_value"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_671",
+    "skilltree:new_skill_288",
+    "skilltree:new_skill_133"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/lostsouls/crystal_tear.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Поиск древних знаний",
+  "titleColor": "",
+  "positionX": 42.800323,
+  "positionY": 883.9627,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

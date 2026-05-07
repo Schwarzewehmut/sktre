@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_253kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.05,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/max_book_ice.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Whisper of Souls",
+  "titleColor": "6a0dad",
+  "positionX": -646.4816,
+  "positionY": 917.9962,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

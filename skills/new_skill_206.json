@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_206",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "7cefdc93-f9af-4267-86af-f27774df538a",
+      "name": "Skill",
+      "amount": 72.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:deathworm_yellow_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/lostsouls/spodnie.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доспехи",
+  "titleColor": "",
+  "positionX": -148.2709,
+  "positionY": 2112.7502,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

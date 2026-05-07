@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:new_skill_264",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "9c1bc5e4-4464-4c36-9ad7-77b68f7dc513",
+      "name": "Skill",
+      "amount": 25.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "dungeons_and_combat:steel_shield",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_651",
+    "skilltree:new_skill_670"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Улучшение оружия",
+  "titleColor": "",
+  "positionX": -268.98154,
+  "positionY": 780.20685,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

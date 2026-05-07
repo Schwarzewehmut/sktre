@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_320",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "753e2067-2797-4aae-9a02-dc175259de03",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "dungeons_and_combat:wooden_shield",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_673"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Щит как вторая кожа I",
+  "titleColor": "",
+  "positionX": 222.29247,
+  "positionY": 84.66876,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

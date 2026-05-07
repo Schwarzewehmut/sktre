@@ -1,0 +1,108 @@
+{
+  "id": "skilltree:new_skill_319kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "e045485d-468d-44a9-b75e-0b560c381374",
+      "name": "Skill",
+      "amount": 80.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:golden_sword",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "7811ef7e-849a-408b-8e8d-c0d6f7f08614",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:golden_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "512d68bc-5bb1-4934-85b9-75772760724e",
+      "name": "Skill",
+      "amount": 80.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:golden_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "1c67bb1b-78fa-4d66-98ad-53cf49d55d1f",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:golden_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "0f9a61a7-3968-49d9-8643-be5fe886385e",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:golden_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "\"Clad In radiance: Aegis of the Sun king\"",
+  "titleColor": "FFD700",
+  "positionX": -659.6396,
+  "positionY": 1046.9425,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

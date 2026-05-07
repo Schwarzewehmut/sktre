@@ -1,0 +1,174 @@
+{
+  "id": "skilltree:new_skill_239kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "a45e77aa-88d4-4a13-a7ef-4c9501b10475",
+      "name": "Skill",
+      "amount": 160.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_blue_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "05a69392-5601-48d2-b281-e3373195a5fa",
+      "name": "Skill",
+      "amount": 200.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_blue_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "3eac0795-aefc-4369-ab90-eeb660730af4",
+      "name": "Skill",
+      "amount": 180.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_blue_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "d6d4b9ab-0022-4a30-8033-8f314f3f7c7f",
+      "name": "Skill",
+      "amount": 160.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_blue_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "79a4d95d-218b-4f1d-b913-8e5b37878a61",
+      "name": "Skill",
+      "amount": 160.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:dragonbone_sword_fire",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "d233c895-5821-42db-8f6d-1c83547b816e",
+      "name": "Skill",
+      "amount": 160.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:dragonbone_sword_ice",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "8370a1e3-7ec3-4593-a674-3af27345342d",
+      "name": "Skill",
+      "amount": 160.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:dragonbone_sword_lightning",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "dc416803-4a4e-4757-9f81-7f7725d19950",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "fb9cb4b1-3c60-463f-a47b-2dcee2fc0e1c",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "minecraft:generic.armor",
+        "divisor": 3.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "\"Draconic Requiem: Symphony of Ruin\"",
+  "titleColor": "FF6347",
+  "positionX": -722.4171,
+  "positionY": 892.8835,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

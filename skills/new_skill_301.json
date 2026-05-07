@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_301",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "98be0420-c999-4446-a919-8c7b82d93338",
+      "name": "Skill",
+      "amount": 42.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "knightquest:polar_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доспехи",
+  "titleColor": "",
+  "positionX": -223.46101,
+  "positionY": 980.0574,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:new_skill_248",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "f6e6df77-a3e4-4ecd-8f4e-2b036e6d1312",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_239"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Рост опыта IV",
+  "titleColor": "",
+  "positionX": 449.73752,
+  "positionY": 248.9881,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

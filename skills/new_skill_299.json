@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:new_skill_299",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "8ad5d857-c8ec-46a3-8615-4e19176bc701",
+      "name": "Skill",
+      "amount": 24.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "dungeons_and_combat:wolf_steel_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_664",
+    "skilltree:new_skill_222",
+    "skilltree:new_skill_366"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доспехи",
+  "titleColor": "",
+  "positionX": 98.13951,
+  "positionY": 810.26263,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

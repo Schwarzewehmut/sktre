@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:new_skill_250",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "minecells:disarmed",
+      "duration": 80,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "shield",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "I улучшение подкласса защитника"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -383.51157,
+  "positionY": 869.81586,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

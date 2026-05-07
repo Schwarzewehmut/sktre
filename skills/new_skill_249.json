@@ -1,0 +1,55 @@
+{
+  "id": "skilltree:new_skill_249",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "eeef8634-2316-4aba-a2a2-e85bb6f0ef2d",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_248",
+    "skilltree:cook_subclass_2_crafting_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Рост опыта V",
+  "titleColor": "",
+  "positionX": 421.10916,
+  "positionY": 222.22882,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

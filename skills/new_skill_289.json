@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_289",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "feathers:feathers.max_feathers",
+      "id": "f3f41936-611e-40fd-bd3a-68072c26997d",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_671"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Кардио",
+  "titleColor": "",
+  "positionX": 22.787132,
+  "positionY": 813.3848,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50 к Максимальной выносливости"
+    }
+  ]
+}

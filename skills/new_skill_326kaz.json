@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_326kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "4f065bd6-4436-4df4-b786-d45d2ef96378",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/heart.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -659.63934,
+  "positionY": 1072.9423,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

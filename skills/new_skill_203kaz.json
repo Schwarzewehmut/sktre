@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_203kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "b5f62159-cc1a-4d1e-927b-3d447e4d921c",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -654.0839,
+  "positionY": 791.5275,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

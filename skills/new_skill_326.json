@@ -1,0 +1,206 @@
+{
+  "id": "skilltree:new_skill_326",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "1b9d727e-86a6-4bb3-aa33-ca69a65b0a82",
+      "name": "Skill",
+      "amount": 14000.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "e266acc0-fbd2-4b3e-96da-d82feae34ee0",
+      "name": "Skill",
+      "amount": 16000.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "bbed9e41-7162-4a49-a1fe-1af28869aa51",
+      "name": "Skill",
+      "amount": 500.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": -1.0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 100.0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "31352fce-6de3-4147-8b2f-36adcc722cb7",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "8c3325e2-105b-49b5-ba82-d64edf224b4f",
+      "name": "Skill",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:blocking",
+      "id": "b0f512e1-4195-4f62-a990-e0c6602588d8",
+      "name": "Skill",
+      "amount": 15.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.5,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "206c9644-8797-4148-8770-997495e12e9e",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "feathers:feathers.max_feathers",
+      "id": "6e58f7e2-71f4-4f37-bd5b-8470c8741b47",
+      "name": "Skill",
+      "amount": 150.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "0e6a7ad9-aa66-4b9d-a2e6-1fba56db4f66",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "1859e447-de1c-4933-a977-95035c0da9d1",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/remove.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Воитель",
+  "titleColor": "",
+  "positionX": -697.1955,
+  "positionY": -380.55606,
+  "buttonSize": 100,
+  "isStartingPoint": true
+}

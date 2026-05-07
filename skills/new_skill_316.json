@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_316",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "helmet",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1500.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_374"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Прочность шлемов",
+  "titleColor": "",
+  "positionX": -1076.1721,
+  "positionY": -221.16359,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

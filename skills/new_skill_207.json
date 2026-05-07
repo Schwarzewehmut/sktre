@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_207",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "b29643d7-b36d-48d2-a6ec-8aa76192c2bb",
+      "name": "Skill",
+      "amount": 60.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:deathworm_yellow_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доспехи",
+  "titleColor": "",
+  "positionX": -109.148766,
+  "positionY": 2160.6523,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
