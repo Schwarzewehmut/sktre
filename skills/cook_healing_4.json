@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:cook_healing_4",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.07,
+      "amount": 1.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:block"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_healing_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Лучшая защита III",
+  "titleColor": "",
+  "positionX": 204.76811,
+  "positionY": -63.235504,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
