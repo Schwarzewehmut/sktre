@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_382",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1000.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_384",
+    "skilltree:blacksmith_defensive_crafting_5"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Упрочнение щитов",
+  "titleColor": "",
+  "positionX": -1375.0924,
+  "positionY": -104.295715,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

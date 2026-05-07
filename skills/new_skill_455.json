@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_455",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "1fe5ca8a-4e59-4351-9ce9-17b722af3630",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Водоворот I",
+  "titleColor": "",
+  "positionX": 737.5946,
+  "positionY": -172.59981,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

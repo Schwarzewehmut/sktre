@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_378",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "boots",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1500.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_376",
+    "skilltree:blacksmith_defensive_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Прочность ботинок",
+  "titleColor": "",
+  "positionX": -365.19534,
+  "positionY": 30.835262,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

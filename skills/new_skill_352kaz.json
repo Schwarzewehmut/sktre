@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_352kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.1,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/max_book_ice.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": " Throne of Devouring Soul",
+  "titleColor": "6a0dad",
+  "positionX": -687.97235,
+  "positionY": 1124.5226,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

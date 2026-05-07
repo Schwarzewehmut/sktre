@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:new_skill_421",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.05,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_subclass_2_life_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Удар в трахею I",
+  "titleColor": "",
+  "positionX": 617.32196,
+  "positionY": 184.96475,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

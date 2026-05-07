@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_451",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "9885602c-db87-43dc-a16e-2c25dd9f427c",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "3c39222d-ba4e-4a5a-b02c-1f59bcc97fd3",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Матёрый моряк",
+  "titleColor": "",
+  "positionX": 833.55334,
+  "positionY": -335.61993,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": "skilltree:new_skill_453",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_knockback",
+      "id": "5744c0d2-eafa-40b4-9b6f-3bd19859a8e0",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 1.0,
+      "loot_type": "fishing"
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "f4791411-597e-46a8-8ee6-87702b8c92fb",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "326876b9-551b-4e4f-a4a7-f891410702af",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_450"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Новый пират",
+  "titleColor": "",
+  "positionX": 761.4566,
+  "positionY": -541.266,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

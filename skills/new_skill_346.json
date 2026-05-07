@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:new_skill_346",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "902fca09-2879-4e57-a556-345967b40e28",
+      "name": "Skill",
+      "amount": 12.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:chainmail_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_349",
+    "skilltree:new_skill_336",
+    "skilltree:new_skill_335",
+    "skilltree:new_skill_37"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доспехи",
+  "titleColor": "",
+  "positionX": -244.48271,
+  "positionY": -12.971878,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

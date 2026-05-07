@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_429",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "chestplate",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1500.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_428",
+    "skilltree:new_skill_423"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Прочность нагрудников",
+  "titleColor": "",
+  "positionX": -596.36176,
+  "positionY": -82.581184,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
