@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:new_skill_489",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "multiplier": 0.05,
+        "type": "skilltree:food_saturation"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "06b34915-7af1-457a-9881-e15ac43e7e89",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_535"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Сытость I",
+  "titleColor": "",
+  "positionX": 471.4608,
+  "positionY": 66.20354,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

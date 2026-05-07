@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_469",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "83c15d37-bcca-49af-92d9-2cdf0e0adfc2",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_470",
+    "skilltree:new_skill_467"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Подводная махина III",
+  "titleColor": "",
+  "positionX": 775.8786,
+  "positionY": -382.2359,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_498",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "born_in_chaos_v1:obsession",
+        "duration": 600,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/healing.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Рвение",
+  "titleColor": "",
+  "positionX": 482.62506,
+  "positionY": -54.98886,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

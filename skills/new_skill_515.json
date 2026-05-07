@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:new_skill_515",
+  "bonuses": [],
+  "directConnections": [
+    "skilltree:new_skill_513",
+    "skilltree:new_skill_480"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 442.23843,
+  "positionY": -148.61328,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_474",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.03,
+      "effect": "cataclysm:stun",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_459"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/lostsouls/crystal_tear.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Глубинная бомба I",
+  "titleColor": "",
+  "positionX": 690.4749,
+  "positionY": 56.419228,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

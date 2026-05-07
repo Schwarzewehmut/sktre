@@ -1,0 +1,50 @@
+{
+  "id": "skilltree:new_skill_478",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "286d7987-0471-4b40-b329-09258b43fac8",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "bc7ebe02-a2ce-4c5b-b3a7-b6ce7ccd85ee",
+      "name": "Skill",
+      "amount": 0.04,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "max": 19,
+        "type": "skilltree:food_level"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_501",
+    "skilltree:new_skill_492"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Персональные качества I",
+  "titleColor": "",
+  "positionX": 437.69797,
+  "positionY": 72.31343,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "skilltree:new_skill_494",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "a8cf920b-5210-44f1-acfa-2aad41b3c2a4",
+      "name": "SkillBonus",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "e3ea5c4e-7ec0-4a12-977a-820dc9d1b94d",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "e289e987-b132-412f-b87b-775a8ea93729",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/lostsouls/odissea-gruppe.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Частная военная компания",
+  "titleColor": "",
+  "positionX": 491.04926,
+  "positionY": -616.4719,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

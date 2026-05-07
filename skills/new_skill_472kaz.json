@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_472kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.15,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/max_book_lightning.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Ascension of the Soul Monarch",
+  "titleColor": "6a0dad",
+  "positionX": -687.97235,
+  "positionY": 1384.5223,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

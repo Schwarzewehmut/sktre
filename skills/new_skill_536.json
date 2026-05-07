@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_536",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "skilltree:damage_bonus",
+        "duration": 1200,
+        "amplifier": 1,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_538"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Стероиды III",
+  "titleColor": "",
+  "positionX": 594.5766,
+  "positionY": -122.40288,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

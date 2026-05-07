@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_533",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "3ff252c9-c241-482f-9964-46c29b5f07d0",
+      "name": "SkillBonus",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 15,
+        "type": "skilltree:food_level"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Всегда сыт III",
+  "titleColor": "",
+  "positionX": 337.01987,
+  "positionY": 138.10454,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

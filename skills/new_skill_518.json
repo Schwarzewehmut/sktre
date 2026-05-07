@@ -1,0 +1,74 @@
+{
+  "id": "skilltree:new_skill_518",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "skilltree:crit_damage_bonus",
+        "duration": 1200,
+        "amplifier": 19,
+        "type": "skilltree:food_effect"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "28b606c9-3724-470a-b274-6e5b6eff96b8",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "57b89baa-203d-45e8-a389-ba252432b7f2",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "236e0d37-218c-4849-ad8f-6f2915ce6f28",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_510"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "ftblibrary:textures/icons/map.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "4 позиции",
+  "titleColor": "",
+  "positionX": 567.1669,
+  "positionY": -404.67236,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

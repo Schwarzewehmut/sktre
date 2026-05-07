@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_537",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.25,
+      "multiplier": 0.25,
+      "loot_type": "mobs"
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "minecraft:saturation",
+        "duration": 1200,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_530"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Пересыщен в край",
+  "titleColor": "",
+  "positionX": 608.1262,
+  "positionY": -467.27246,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

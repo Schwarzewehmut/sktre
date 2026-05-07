@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_523",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:blocking",
+      "id": "0924dde8-217f-408d-b22d-56923b2528fd",
+      "name": "SkillBonus",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 15,
+        "type": "skilltree:food_level"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_defensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Непробиваемое брюхо",
+  "titleColor": "",
+  "positionX": 581.4161,
+  "positionY": -28.934238,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

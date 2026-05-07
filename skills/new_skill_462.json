@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_462",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "c302ed6d-9da0-49df-b540-25bc609a144e",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_472",
+    "skilltree:new_skill_464"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Торпеда II",
+  "titleColor": "",
+  "positionX": 723.5416,
+  "positionY": -65.50078,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

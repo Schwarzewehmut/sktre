@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:new_skill_493",
+  "bonuses": [],
+  "directConnections": [
+    "skilltree:new_skill_495",
+    "skilltree:new_skill_481"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 449.61145,
+  "positionY": -218.5918,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:new_skill_491",
+  "bonuses": [],
+  "directConnections": [
+    "skilltree:new_skill_497",
+    "skilltree:new_skill_513"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/lostsouls/gobscraps.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 455.43823,
+  "positionY": -202.61566,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_468",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "91de7da9-9192-4460-91df-7e17ce9c62a4",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:underwater"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Буёк I",
+  "titleColor": "",
+  "positionX": 736.4527,
+  "positionY": 30.748577,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

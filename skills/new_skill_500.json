@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_500",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "born_in_chaos_v1:bone_barrier",
+        "duration": 300,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_498",
+    "skilltree:new_skill_486"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Полуживой щит",
+  "titleColor": "",
+  "positionX": 443.52875,
+  "positionY": -51.680946,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

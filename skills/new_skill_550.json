@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_550",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "6218ffe7-595e-43a6-9f4b-77ed22e32ca7",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Когда я ем - враги глухи и мертвы",
+  "titleColor": "",
+  "positionX": 606.52625,
+  "positionY": -338.46448,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_516",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "irons_spellbooks:gluttony",
+        "duration": 100,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_511",
+    "skilltree:new_skill_502"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 333.73633,
+  "positionY": 60.69798,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

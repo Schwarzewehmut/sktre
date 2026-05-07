@@ -1,0 +1,59 @@
+{
+  "id": "skilltree:new_skill_507",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "id": "06677ca9-d6ff-4dd3-8f07-ff94144018af",
+      "name": "SkillBonus",
+      "amount": 0.5,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:ignite",
+      "chance": 0.1,
+      "duration": 5,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:block"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_508",
+    "skilltree:new_skill_477"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Лучшие в аду",
+  "titleColor": "",
+  "positionX": 495.87775,
+  "positionY": -477.00974,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

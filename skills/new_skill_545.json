@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_545",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "f054d7be-39ef-48be-afa4-345d8f8907ee",
+      "name": "SkillBonus",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Вечность сыт",
+  "titleColor": "",
+  "positionX": 465.56076,
+  "positionY": 147.52472,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

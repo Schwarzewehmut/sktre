@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:new_skill_506",
+  "bonuses": [],
+  "directConnections": [
+    "skilltree:new_skill_480",
+    "skilltree:new_skill_479"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 452.05493,
+  "positionY": -96.0193,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

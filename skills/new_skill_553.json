@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_553",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "alexsmobs:knockback_resistance",
+        "duration": 600,
+        "amplifier": 0,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_561"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_defensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Многолетний опыт",
+  "titleColor": "",
+  "positionX": 645.5233,
+  "positionY": -270.91324,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "skilltree:new_skill_495",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 480.15308,
+  "positionY": -235.27629,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,87 @@
+{
+  "id": "skilltree:new_skill_484",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "de604af3-857a-4c72-a018-81f4f7cb2c9d",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.06,
+      "effect": "alexscaves:stunned",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.06,
+      "effect": "born_in_chaos_v1:bone_fracture",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_483",
+    "skilltree:new_skill_495"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "voicechat:textures/icons/invite_button.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Солдаты удачи",
+  "titleColor": "",
+  "positionX": 508.01642,
+  "positionY": -256.8775,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

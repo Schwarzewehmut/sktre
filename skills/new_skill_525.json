@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:new_skill_525",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:exp_per_minute",
+      "id": "b3fd9899-e830-4116-87f7-2edba14f6e7f",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:saturation",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_530",
+    "skilltree:new_skill_531"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Много всего, всего много",
+  "titleColor": "",
+  "positionX": 606.52625,
+  "positionY": -416.46545,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_510",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.03,
+      "effect": "minecraft:regeneration",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_509"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Из жара в пепел",
+  "titleColor": "",
+  "positionX": 512.0185,
+  "positionY": -363.69888,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

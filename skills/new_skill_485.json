@@ -1,0 +1,19 @@
+{
+  "id": "skilltree:new_skill_485",
+  "bonuses": [],
+  "directConnections": [
+    "skilltree:new_skill_481",
+    "skilltree:new_skill_497"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/healing.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 519.0036,
+  "positionY": -216.94965,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
