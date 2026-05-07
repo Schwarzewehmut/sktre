@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_2am",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "db7747ac-7f03-439d-bed8-ffc3a493b2b2",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Увороты",
+  "titleColor": "",
+  "positionX": 27.33492,
+  "positionY": -3.4788895,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

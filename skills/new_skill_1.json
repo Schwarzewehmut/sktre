@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:new_skill_1",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1000.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_1257"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Ремонт на скорую руку",
+  "titleColor": "",
+  "positionX": 177.50716,
+  "positionY": 23.691765,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Создаваемая Экипировка: +1000 Прочность (в том числе оружие)"
+    }
+  ]
+}

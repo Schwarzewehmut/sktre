@@ -1,0 +1,17 @@
+{
+  "id": "skilltree:new_skill_9mo",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Воин",
+  "titleColor": "",
+  "positionX": 240.695,
+  "positionY": -623.086,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

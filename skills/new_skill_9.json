@@ -1,0 +1,118 @@
+{
+  "id": "skilltree:new_skill_9",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "id": "853dbd74-423d-440f-b6ff-0514e5234af7",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "0f52288d-2608-46ad-8adb-2f5c3c60e0f5",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "id": "dcb50942-7e07-4a6d-b6a8-2c5e60188fa4",
+      "name": "Skill",
+      "amount": -0.25,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.06,
+      "effect": "minecells:cursed",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:magic"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "1ee410cd-d586-49ec-9a83-f40533bd8838",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "01d8c534-8ef7-4022-a5e5-a8e8636efdc7",
+      "name": "Skill",
+      "amount": 66.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Подкласс",
+    "Магический аспект",
+    "Нельзя выбрать подклассы защитника"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Тёмный Рыцарь",
+  "titleColor": "",
+  "positionX": -121.785126,
+  "positionY": 351.7809,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

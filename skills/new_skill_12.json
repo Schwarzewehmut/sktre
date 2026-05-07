@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_12",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "fd0d6a94-2c47-496f-b45b-4acbf1556a36",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:hero_of_the_village",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_730"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Физподготовка",
+  "titleColor": "",
+  "positionX": -282.70297,
+  "positionY": 463.9047,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "skilltree:new_skill_9am",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_velocity",
+      "id": "f9a5257e-45be-4495-97ec-02b57fb4aaf7",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 0.05,
+      "amount": 5.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:projectile"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_8am"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Залп II",
+  "titleColor": "",
+  "positionX": 287.36954,
+  "positionY": -29.978111,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

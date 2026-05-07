@@ -1,0 +1,118 @@
+{
+  "id": "skilltree:new_skill_17kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "e3432d8a-fdd3-4d8c-81a1-d1d18ea57200",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "ac3e9736-d2d9-44f9-823f-8b376a340614",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "4748488c-e8d4-45df-b202-80f4f4240eeb",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "0668bfcd-0f0e-447e-81ef-9bdb397b5ebc",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "helmet",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1000.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_244"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_1284"
+  ],
+  "tags": [
+    "Основной класс",
+    "Нельзя выбрать подклассы защитника",
+    "Нельзя выбрать подклассы стрелка"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Мечник",
+  "titleColor": "",
+  "positionX": -43.41479,
+  "positionY": 30.21139,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:new_skill_3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "4e5c2146-01f7-4fa8-b8aa-5ac812d2f880",
+      "name": "Skill",
+      "amount": 30.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_10",
+    "skilltree:new_skill_348",
+    "skilltree:new_skill_280",
+    "skilltree:new_skill_280"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Физподготовка",
+  "titleColor": "",
+  "positionX": -179.82442,
+  "positionY": 85.81144,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

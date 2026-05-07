@@ -1,0 +1,108 @@
+{
+  "id": "skilltree:new_skill_16kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "c6ae489a-c24b-4742-8095-28be8219906d",
+      "name": "Skill",
+      "amount": 80.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:silver_sword",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "c59247c0-f042-4571-b36a-14497b554fc4",
+      "name": "Skill",
+      "amount": 70.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_silver_metal_helmet",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "23fa4b4e-b437-4f41-ac90-3d63eeed3d05",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_silver_metal_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "3e9322a9-3792-4925-9a20-d03ecbee7ccf",
+      "name": "Skill",
+      "amount": 70.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_silver_metal_leggings",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "5858567d-7d48-4fa5-849d-297df1ecfdfa",
+      "name": "Skill",
+      "amount": 70.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "iceandfire:armor_silver_metal_boots",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "\"Knight of the Silver Vow: Full Manifestation\"",
+  "titleColor": "00CED1",
+  "positionX": -168.53201,
+  "positionY": 239.70062,
+  "buttonSize": 16,
+  "isStartingPoint": true
+}

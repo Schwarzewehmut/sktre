@@ -1,0 +1,140 @@
+{
+  "id": "skilltree:new_skill_4am",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:dodge",
+      "id": "099f2238-501b-4114-b822-7d4581ef15a1",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "801b2353-9a4b-45d4-b255-e3d522bfd8a1",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:regeneration",
+      "id": "4c3cc07b-6b01-4cd5-8993-d3a89a7416cd",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:crouching"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "f9d5f9e5-51e0-4f11-ba5c-95a87776b122",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "f245ce0c-46b2-4f5f-90ff-685ab0d54533",
+      "name": "Skill",
+      "amount": -0.3,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "7d3e4bbd-3847-4d6d-a5ed-d1bf69b58cd8",
+      "name": "Skill",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "boots",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1000.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_1284"
+  ],
+  "tags": [
+    "Основной класс",
+    "Нельзя выбрать подклассы защитника",
+    "Нельзя выбрать подклассы мечника"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Стрелок",
+  "titleColor": "",
+  "positionX": 43.90943,
+  "positionY": 29.273989,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

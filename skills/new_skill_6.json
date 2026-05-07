@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_6",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 160.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "minecraft:diamond_sword",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Улучшение оружия",
+  "titleColor": "",
+  "positionX": 597.0039,
+  "positionY": 937.71423,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
