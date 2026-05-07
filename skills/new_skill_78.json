@@ -1,0 +1,72 @@
+{
+  "id": "skilltree:new_skill_78",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:food_level"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "310d01fb-e332-40ea-bfe7-e9bdcc631a9a",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "e406d348-b0b2-4ddb-871c-66d7e87f0f5b",
+      "name": "Skill",
+      "amount": 60.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_offensive_8",
+    "skilltree:new_skill_502"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Подкласс повара",
+    "Магический аспект"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_crit_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Контрабандист",
+  "titleColor": "",
+  "positionX": 252.7661,
+  "positionY": 110.57515,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_70",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:healing_power",
+      "id": "697c5a7e-3ea0-4ec4-9635-7fa1f2acfc8c",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_257"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "I улучшение подкласса защитника"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -156.9407,
+  "positionY": 894.2245,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "skilltree:new_skill_71am",
+  "bonuses": [
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.01
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 2229.4246,
+  "positionY": 916.9724,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

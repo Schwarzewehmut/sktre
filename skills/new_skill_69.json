@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_69",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "2f45717e-5cd1-4e5d-ac77-6a24ea701858",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/nbt/string.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Твёрдость брони",
+  "titleColor": "",
+  "positionX": 854.7511,
+  "positionY": 915.40466,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

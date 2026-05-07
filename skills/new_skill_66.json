@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_66",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 375.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "simplyswords:iron_chakram",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Улучшение оружия",
+  "titleColor": "",
+  "positionX": -284.16733,
+  "positionY": 163.36238,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

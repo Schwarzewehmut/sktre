@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_68kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "a5e9dcd5-d3e7-4bab-b579-68fcd6fab1fe",
+      "name": "Skill",
+      "amount": 0.045,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -348.53055,
+  "positionY": 432.5412,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:new_skill_44",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "cd44272e-59e0-422a-babe-4471f2868d26",
+      "name": "Skill",
+      "amount": 30.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "id": "dungeons_and_combat:old_shield",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Щит как вторая кожа IV",
+  "titleColor": "",
+  "positionX": 668.16003,
+  "positionY": 932.5083,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

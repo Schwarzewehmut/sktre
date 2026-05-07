@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_80kaz",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:entity_reach",
+      "id": "9c4ac572-5c21-41f9-8632-ab40b9215047",
+      "name": "Skill",
+      "amount": 0.0025,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -328.05447,
+  "positionY": 466.11047,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

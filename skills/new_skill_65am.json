@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_65am",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "c7e1f024-b93b-49e7-95c2-fdc02feaccbf",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 2222.697,
+  "positionY": 761.85535,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

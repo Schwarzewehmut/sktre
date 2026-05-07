@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:new_skill_35",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "d87ebfff-c374-451c-b109-4947775b8b96",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1000.0,
+        "operation": 0,
+        "type": "skilltree:durability"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_8",
+    "skilltree:new_skill_334"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "ftblibrary:textures/icons/nbt/string.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Твёрдость брони",
+  "titleColor": "",
+  "positionX": -30.552326,
+  "positionY": -189.68465,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

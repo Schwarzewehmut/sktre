@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_42am",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "438d3460-e8ec-4722-87df-1b9762057882",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 2,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 1958.7672,
+  "positionY": 750.8324,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

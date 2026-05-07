@@ -1,0 +1,251 @@
+{
+  "id": "skilltree:new_skill_51",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "8c734e0d-3aeb-4f01-9d3b-04562d7bbc05",
+      "name": "Skill",
+      "amount": 30.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "815cd963-3bd3-4355-a7dc-bff0bf0a5f05",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:summon_damage",
+      "id": "0e955d2a-ede3-4ccc-b96e-7b8af5928e3c",
+      "name": "Skill",
+      "amount": -0.7,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "id": "03af35ce-f265-4260-94c2-2b3a614d35b7",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "id": "747f31d8-10b9-4c84-a7e6-e7902d9346ca",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "23ee79d8-107c-40fa-afbd-980dccf3e3e4",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "id": "4bc5ff34-39fc-489c-b975-bc562cac4fd1",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "id": "314d1ae5-327b-41cd-bcc7-5edc5a9c5cfe",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "id": "e0db726c-2383-4fee-a9b7-85c839e4b838",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "ddacc9aa-7362-43d0-8029-00e53925d081",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "16711852-cbfc-45ee-bb96-822da01250e4",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "885c988a-2a22-440b-90bd-80235654ea47",
+      "name": "Skill",
+      "amount": -100.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": -0.4,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": -0.8,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:dual_wielding"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "fc858988-ee7c-44ac-a619-cc36ad104145",
+      "name": "Skill",
+      "amount": -1.0,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_2am",
+    "skilltree:new_skill_235"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "ftblibrary:textures/icons/star.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "С чего всё начиналось",
+  "titleColor": "",
+  "positionX": -0.6358025,
+  "positionY": -41.464172,
+  "buttonSize": 30,
+  "isStartingPoint": true
+}
