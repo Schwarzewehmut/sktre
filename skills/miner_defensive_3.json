@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:miner_defensive_3",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "baa9fe6d-3bce-4236-9c52-9198d5b5d5c7",
+      "name": "SkillBonus",
+      "amount": 20.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "pickaxe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_defensive_4",
+    "skilltree:miner_crafting_notable_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": -1039.5892,
+  "positionY": 135.14055,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

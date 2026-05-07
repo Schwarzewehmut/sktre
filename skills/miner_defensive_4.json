@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:miner_defensive_4",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_knockback",
+      "id": "890c9f57-286e-47ad-bf94-d579d882d4d7",
+      "name": "SkillBonus",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "pickaxe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_defensive_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "А ну разойдись",
+  "titleColor": "",
+  "positionX": -1090.9996,
+  "positionY": 120.87554,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

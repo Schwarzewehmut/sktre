@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:miner_defensive_2",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.25,
+      "experience_source": "ore"
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Доскональность",
+  "titleColor": "",
+  "positionX": -967.46075,
+  "positionY": 30.22396,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
