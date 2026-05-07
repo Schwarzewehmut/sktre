@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:alchemist_class",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "potion_type": "any",
+        "type": "skilltree:potion"
+      },
+      "item_bonus": {
+        "multiplier": 0.4,
+        "type": "skilltree:potion_duration"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ПобочныЙ класс"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "titleColor": "",
+  "positionX": 1395.1477,
+  "positionY": 168.39633,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}
